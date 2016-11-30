@@ -747,9 +747,10 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		/*background-image: url("images/overlay.png"), url("images/bg.jpg");*/
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
+		background-color: #000;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
@@ -847,7 +848,7 @@
 		margin: 0 0 1em 0;
 	}
 
-	form input[type="text"],
+	/*form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
 	form select,
@@ -861,7 +862,7 @@
 		-webkit-transition: background-color .25s ease-in-out;
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
-	}
+	}*/
 
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
@@ -1337,8 +1338,8 @@
 		/* Me */
 
 			#me {
-				padding: 0;
-				height: 20em;
+				padding: 0px;
+				height: 46em;
 			}
 
 				#me .pic {
